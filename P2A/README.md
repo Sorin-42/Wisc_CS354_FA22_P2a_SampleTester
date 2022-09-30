@@ -10,11 +10,11 @@ To run the tests, you should copy all the files in this folder into your p2a dir
 
 Execution Test cases:
 
-1. Partial complete valid
-2. Complete valid
-3. Empty (0) valid
-4. Invalid size < 1
-5. Invalid size > 9
+1. Partial complete board valid
+2. Complete board valid
+3. Empty board valid
+4. Invalid board size < 1
+5. Invalid board size > 9
 6. Duplicate row
 7. Duplicate boarder
 8. Duplicate column
