@@ -6,7 +6,7 @@ This repository is not endorsed or created by anyone working in an official capa
 
 By running this repository, you are executing code you downloaded from the internet. Back up your files and take a look at what you are running first.
 
-To run the tests, you should merge this P2A folder into your p2a root directory (place that store your ```check_board.c``` and ```check_board```). Then execute ```test.sh``` within the root directory.
+To run the tests, you should copy all the files in this folder into your p2a directory (place that store your ```check_board.c``` and ```check_board```). Then execute ```bash test.sh``` within the root directory.
 
 Execution Test cases:
 
