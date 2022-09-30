@@ -8,4 +8,18 @@ By running this repository, you are executing code you downloaded from the inter
 
 To run the tests, you should merge this P2A folder into your p2a root directory (place that store your ```check_board.c``` and ```check_board```). Then execute ```test.sh``` within the root directory.
 
-Thanks for the help from Ruixuan Tu.
+Execution Test cases:
+
+1. Partial complete valid
+2. Complete valid
+3. Empty (0) valid
+4. Invalid size < 1
+5. Invalid size > 9
+6. Duplicate row
+7. Duplicate boarder
+8. Duplicate column
+9. Duplicate corner
+10. Duplicate interior
+
+
+**ps. This tester won't test if you check the return values of malloc(), fopen(), and fclose()**
