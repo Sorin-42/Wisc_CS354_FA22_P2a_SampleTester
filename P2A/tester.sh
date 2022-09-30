@@ -3,6 +3,10 @@ echo "CS354 FA22 Project 2A simple Tester"
 echo "by Zhilin Du"
 echo "pwd:$(pwd)"
 echo ""
+echo "=== Compile Your check_board ==="
+gcc check_board.c -g -m32 -std=gnu99 -o check_board
+echo "=== Finish Compiling ==="
+echo ""
 echo "=== CLA Checking Tests Begin ==="
 ./check_board > claOut.txt
 diff claOut.txt ./test/claRes.txt > claCmp.txt
