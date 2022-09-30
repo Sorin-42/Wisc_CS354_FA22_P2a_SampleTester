@@ -1,4 +1,4 @@
-# Wisc_CS354_FA22_SampleTester
+# Wisc_CS354_FA22_P2a_SampleTester
 
 This repository automatically tests your project 2a implementation by drivers given before the deadline and written by me. There is no code which can be submitted for this project in this repository.
 
