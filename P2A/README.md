@@ -1,4 +1,4 @@
-# Wisc_CS354_FA22_SampleTester
+# Wisc_CS354_FA22_P2a_SampleTester
 
 This repository automatically tests your project 2a implementation by drivers given before the deadline and written by me. There is no code which can be submitted for this project in this repository.
 
@@ -6,6 +6,20 @@ This repository is not endorsed or created by anyone working in an official capa
 
 By running this repository, you are executing code you downloaded from the internet. Back up your files and take a look at what you are running first.
 
-To run the tests, you should merge this P2A folder into your p2a root directory. Then execute ```test.sh``` within the root directory.
+To run the tests, you should copy all the files in this folder into your p2a directory (place that store your ```check_board.c``` and ```check_board```). Then execute ```bash test.sh``` within the root directory.
 
-Thanks for the help from Ruixuan Tu.
+Execution Test cases:
+
+1. Partial complete board valid
+2. Complete board valid
+3. Empty board valid
+4. Invalid board size < 1
+5. Invalid board size > 9
+6. Duplicate row
+7. Duplicate boarder
+8. Duplicate column
+9. Duplicate corner
+10. Duplicate interior
+
+
+**ps. This tester won't test if you check the return values of malloc(), fopen(), and fclose()**
